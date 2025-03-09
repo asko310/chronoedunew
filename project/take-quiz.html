@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completează Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Completează Quiz</h1>
+    </header>
+
+    <main>
+        <!-- Formular pentru introducerea numelui -->
+        <div id="student-name-form">
+            <label for="student-name">Numele tău:</label>
+            <input type="text" id="student-name" required>
+            <button id="start-quiz">Începe Quiz</button>
+        </div>
+
+        <!-- Timer -->
+        <div id="timer" style="display: none;">
+            <p>Timp rămas: <span id="time-left">2:00</span></p>
+        </div>
+
+        <!-- Întrebările quiz-ului -->
+        <div id="quiz-questions" style="display: none;">
+            <h2 id="quiz-title"></h2>
+            <div id="questions-container"></div>
+            <button id="submit-quiz">Trimite Răspunsurile</button>
+        </div>
+    </main>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

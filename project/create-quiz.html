@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creează Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Creează Quiz</h1>
+        <nav>
+            <a href="index.html">Acasă</a>
+            <a href="create-quiz.html">Creează Quiz</a>
+            <a href="view-responses.html">Vizualizează Răspunsuri</a>
+        </nav>
+    </header>
+
+    <main>
+        <form id="quiz-form">
+            <label for="quiz-title">Titlul Quiz-ului:</label>
+            <input type="text" id="quiz-title" required>
+
+            <div id="questions-container">
+                <!-- Întrebările vor fi adăugate aici -->
+            </div>
+
+            <button type="button" id="add-question">Adaugă Întrebare</button>
+            <button type="submit">Salvează Quiz</button>
+        </form>
+    </main>
+    <div id="responses">
+        <h2>Răspunsurile elevilor</h2>
+        <ul id="responses-list"></ul>
+    </div>
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

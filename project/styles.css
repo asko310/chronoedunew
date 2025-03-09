@@ -1,0 +1,98 @@
+/* Stiluri generale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Formular pentru nume */
+#student-name-form {
+    margin-bottom: 2rem;
+}
+
+#student-name-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#student-name-form input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#student-name-form button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#student-name-form button:hover {
+    background-color: #555;
+}
+
+/* Timer */
+#timer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Întrebări și opțiuni */
+#quiz-questions h2 {
+    margin-bottom: 1rem;
+}
+
+#questions-container {
+    margin-bottom: 2rem;
+}
+
+.question {
+    margin-bottom: 1.5rem;
+}
+
+.question p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.option {
+    margin-bottom: 0.5rem;
+}
+
+.option label {
+    margin-left: 0.5rem;
+}
+
+/* Buton de trimitere */
+#submit-quiz {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#submit-quiz:hover {
+    background-color: #555;
+}
